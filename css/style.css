@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+
+
+/*----------------------------------------Headings*/
+
+header {
+    margin: 0;
+}
+
+.main-image {
+    height: 100vh;
+    
+    background: url("../images/cover1.jpg");
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/*-----------------------------------------Buttons*/.
