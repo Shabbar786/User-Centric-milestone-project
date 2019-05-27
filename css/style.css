@@ -1,22 +1,64 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
-
+html,
+body {
+    background-color: #f8f8ff;
+    font-family: 'Cormorant Garamond', serif;
+}
 
 /*----------------------------------------Headings*/
 
-header {
-    margin: 0;
+/*-----------------------------------------Buttons*/
+
+.
+/*-----------------------------------------jumbotron*/
+
+.jumbotron {
+    background-color: transparent:
 }
 
-.main-image {
+.image {
     height: 100vh;
-    
-    background: url("../images/cover1.jpg");
-    no-repeat center center fixed;
+    background-attachment: fixed;
+    background: url("../images/band4.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/*-----------------------------------------Buttons*/.
+
+.navbar {}
+
+
+.table-container {}
+
+.news-container {}
+
+.card-container {}
+
+.connect-container {}
+
+
+#section1 {
+    padding-top: 50px;
+    height: 300px;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#section2 {
+    padding-top: 50px;
+    height: 300px;
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 300px;
+    color: #fff;
+    background-color: #ff9800;
+}

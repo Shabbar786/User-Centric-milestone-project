@@ -8,141 +8,220 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,700|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>themonkeys</title>
+    <title>themonkees</title>
 </head>
 
 <body>
-    <!-------Navigation------->
-    <header>
-        <nav class="nav-heading">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-sm" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-sm" href="#">Shows</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-sm" href="#">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-primary btn-sm" href="#">Connect</a>
-                </li>
-            </ul>
-        </nav>
+    <!------Navigation------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 main-image">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbart" aria-expanded="false" aria-label="Toggle navigation">  
+          <span class="navbar-toggler-icon"></span>  
+      </button>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#News">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Shows">Shows</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Music">Music</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Connect">Connect</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </header>
-    <hr>
-    <!------Table------>
-    <section>
-        <div class="container-fluid padding">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="text-uppercase text-center">Shows</h1>
-                    <table class="table table-striped text-center">
-                        <tbody>
-                            <tr>
-                                <td>Date</td>
-                                <td>Event</td>
-                                <td>Location</td>
-                            </tr>
-                            <tr>
-                                <td>Sun, Jun 9 @ 7:00PM</td>
-                                <td>Private Event</td>
-                                <td>Mississippi</td>
-                            </tr>
-                            <tr>
-                                <td>Sat, Jun 15</td>
-                                <td>The Music Fetival</td>
-                                <td>Chicago</td>
-                            </tr>
-                            <tr>
-                                <td>Tue, July 09</td>
-                                <td>MTV Europe Music Awards</td>
-                                <td>Berlin, Germany</td>
-                            </tr>
-                            <tr>
-                                <td>Sat, July 13</td>
-                                <td>Private Event</td>
-                                <td>New York</td>
-                            </tr>
-                            <tr>
-                                <td>Sat, July 20</td>
-                                <td>Glastonbury Music festival</td>
-                                <td>Somerset, England</td>
-                            </tr>
-                            <tr>
-                                <td>Sat, July 27</td>
-                                <td>The Monkees Greatest Hits Concert</td>
-                                <td>LAS Vegas</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    </nav>
+    <div class="container-fluid head-container">
+    
+        <div class="row image jumbotron text-center">
+            <div class="col-md-12">
+                <div id="Home">
+                <h1 class="display-4">The Monkees Webpage</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="../images/band.jpg" target=_"blank" role="button">Gallery</a>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!--------News-------->
+    <div class="container news-container">
+        <div class="row">
+
+            <div class="col-12">
+                <hr>
+                <div id="News">
+                    <h1 class="text-uppercase text-center my-4">News</h1>
+                </div>
+                <hr>
+                <div id="section1" class="container">
+                    <h1>Section 1</h1>
+                    <p class="lead">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                    <p class="lead">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                </div>
+                <div id="section2" class="container">
+                    <h1>Section 2</h1>
+                    <p class="lead">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                    <p class="lead">Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--------Table-------->
+    <div class="container table-container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <div id="Shows">
+                    <h1 class="text-uppercase text-center my-5">Shows</h1>
+                </div>
+                <hr>
+                <table class="table table-striped text-center">
+                    <tbody>
+                        <tr>
+                            <td>Date</td>
+                            <td>Event</td>
+                            <td>Location</td>
+                        </tr>
+                        <tr>
+                            <td>Sun, Jun 9 @ 7:00PM</td>
+                            <td>Private Event</td>
+                            <td>Mississippi</td>
+                        </tr>
+                        <tr>
+                            <td>Sat, Jun 15</td>
+                            <td>The Music Fetival</td>
+                            <td>Chicago</td>
+                        </tr>
+                        <tr>
+                            <td>Tue, July 09</td>
+                            <td>MTV Europe Music Awards</td>
+                            <td>Berlin, Germany</td>
+                        </tr>
+                        <tr>
+                            <td>Sat, July 13</td>
+                            <td>Private Event</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Sat, July 20</td>
+                            <td>Glastonbury Music festival</td>
+                            <td>Somerset, England</td>
+                        </tr>
+                        <tr>
+                            <td>Sat, July 27</td>
+                            <td>The Monkees Greatest Hits Concert</td>
+                            <td>LAS Vegas</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
         <hr>
-    </section>
-
-    <!------Music------>
-
-    <div class="container-fluid padding">
-        <section>
-            <div class="row header">
-                <div class="col-12">
-                    <h1 class='text-uppercase text-center'>Music</h1>
-                    <hr>
-                </div>
-
-            </div>
     </div>
-    <!-------Cards---------->
-
-    <div class="container-fluid padding">
-        <div class="row padding">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/album.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Videos</h4>
-                        <p class="card-text"> Compilation of the Greatest hits.</p>
-                        <a href="#" class="btn btn-primary">Go to Videos</a>
+    <!------Music------>
+    <div class="container">
+        <div class="row header-music">
+            <div class="col-12">
+                <hr>
+                <div id="Music">
+                    <h1 class="text-uppercase text-center my-5">Music</h1>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <!-------Cards---------->
+        <div class="container card-container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../images/album.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Videos</h4>
+                            <p class="card-text"> Compilation of the Greatest hits.</p>
+                            <a href="#" class="btn btn-primary">Go to Videos</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/album2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Latest Sound</h4>
-                        <p class="card-text">Our latest music out now.</p>
-                        <a href="#" class="btn btn-primary">Click to Listen</a>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../images/album2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Latest Sound</h4>
+                            <p class="card-text">Our latest music out now.</p>
+                            <a href="#" class="btn btn-primary">Click to Listen</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/album2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Audio</h4>
-                        <p class="card-text">Listen to the Greatest tracks in MP3 format.</p>
-                        <a href="#" class="btn btn-primary">Click to Listen</a>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../images/album2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Audio</h4>
+                            <p class="card-text">Listen to the Greatest tracks in MP3 format.</p>
+                            <a href="#" class="btn btn-primary">Click to Listen</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!------Connet------>
+        <div class="container connect-container">
+            <div class="row header-connect">
+                <div class="col-12">
+                    <hr>
+                    <div id="Connect">
+                        <h1 class="text-center text-uppercase my-4">Connect</h1>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="container form-container">
+                <div class="row">
+                    <div class="col-12 text-center my-5">
+                        <h3><strong>Stay In Touch!</strong></h3>
+                        <p> <i>Sign up for our news letter and we will keep you updated every second on shows, pre-sales, new music and more.</i></p>
+                        <form>
+                            <label>Enter your Email-address</label><br>
+                            <input type="email" name="email" required><br><br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-5">
+                <div class="col-12 social-links">
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-spotify"></i></a>
+                    <a href=""><i class="fab fa-soundcloud"></i></a>
+                </div>
+                <h4>
+                    <blockquote class="blockquote my-5">“We can tell you all that this is a group that you should be paying attention to. Throughout the United states, keep an eye out for tour dates near you.”</blockquote>
+                </h4>
+            </div>
+        </div>
 
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
