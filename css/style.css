@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: #f8f8ff;
+    background-color: #dcdcdc;
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -41,24 +41,19 @@ body {
 
 .connect-container {}
 
-
-#section1 {
+#news1 {
     padding-top: 50px;
     height: 300px;
     color: #fff;
-    background-color: #1E88E5;
+    background-color: #fdf5e6;
 }
 
-#section2 {
+#news2 {
     padding-top: 50px;
     height: 300px;
     color: #fff;
-    background-color: #673ab7;
+    background-color: #fdf5e6;
 }
 
-#section3 {
-    padding-top: 50px;
-    height: 300px;
-    color: #fff;
-    background-color: #ff9800;
-}
+
+
