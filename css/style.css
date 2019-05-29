@@ -18,24 +18,42 @@ body {
 .image {
     height: 100vh;
     background-attachment: fixed;
-    background: url("../images/band4.jpg");
+    background: url("../images/guitar.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    opacity: 0.4
     
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
+.image-band {
+    width: 420px;
+    height: 200px;
+    border: 2px solid #000;
+    float: right;
+    overflow: auto
+}
 .navbar {}
 
 
 .table-container {}
 
-.news-container {}
+.news-container {
+    
+}
+
+.music-container {
+   
+}
+    
+    
+    
+    
+}
 
 .card-container {}
 
