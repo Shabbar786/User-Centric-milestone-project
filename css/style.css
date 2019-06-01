@@ -1,77 +1,204 @@
 html,
 body {
-    background-color: #dcdcdc;
+    /* background-color: #dcdcdc;*/
     font-family: 'Cormorant Garamond', serif;
 }
 
+/*----------------------------------------Navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    border: 0
+}
+
+.nav-item-home {
+    font-weight: bold;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+
 /*----------------------------------------Headings*/
+
+.main-heading {
+    color: #fff;
+}
+.welcome {
+    color: #fff;
+}
+.gallery {
+    color: #fff;
+}
+.connect {
+    color: #2a5885;
+}
+.music {
+    color: #2a5885;
+}
+.shows {
+    color: #2a5885;
+}
+.news {
+    color: #2a5885;
+}
 
 /*-----------------------------------------Buttons*/
 
-.
+.btn-primary {
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 200px;
+    color: #fff;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+.btn-primary-gallery {
+    font-weight: bold;
+    border-radius: 20px;
+    width: 100px;
+    padding:
+    color: #fff;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
 /*-----------------------------------------jumbotron*/
 
 .jumbotron {
-    background-color: transparent:
+}
+
+.group {
+background: url("../images/group.jpg") no-repeat center fixed;
+background-color: transparent:
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: cover;
+
 }
 
 .image {
-    height: 100vh;
-    background-attachment: fixed;
-    background: url("../images/guitar.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    opacity: 0.4
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+height: 100vh;
+background-attachment: fixed;
+background: url("../images/guitar.jpg");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .image-band {
-    width: 420px;
-    height: 200px;
-    border: 2px solid #000;
-    float: right;
-    overflow: auto
-}
-.navbar {}
+width: 300px;
+height: 200px;
+border: 2px solid #000;
+float: right;
 
-
-.table-container {}
-
-.news-container {
-    
 }
 
-.music-container {
-   
+
+.table-container {
+    }
+
+.wrapper {
+    background-color: #dcdcdc;
 }
-    
-    
-    
-    
-}
+.news-container {}
+
+.music-container {}
 
 .card-container {}
 
-.connect-container {}
+.connect-container {
+    background-color: #dcdcdc;
+}
 
-#news1 {
+/*#News1 {
     padding-top: 50px;
     height: 300px;
-    color: #fff;
+    color: #000;
     background-color: #fdf5e6;
 }
 
-#news2 {
+#News2 {
     padding-top: 50px;
     height: 300px;
     color: #fff;
-    background-color: #fdf5e6;
+    background-color: #f46f30;
+}
+#News3 {
+    padding-top: 50px;
+    height: 300px;
+    color: #fff;
+    background-color: #fbbc05;*/
+}
+
+/*---------------social-links------------------*/
+
+.social-links a {
+    font-size: 64px;
+    padding: 48px;
+}
+
+.fa-facebook-square {
+    color: #1877f2;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-spotify {
+    color: #1ed760;
+}
+
+.fa-soundcloud {
+    color: #ff5500;
+}
+
+/*------------------------------Hover-----*/
+.fa-facebook-square:hover {
+    color: #e4e5e7;
+}
+.fa-twitter:hover {
+    color: #e4e5e7;
+}
+.fa-instagram:hover {
+    color: #e4e5e7;
+}
+.fa-youtube:hover {
+    color: #e4e5e7;
+}
+.fa-spotify:hover {
+    color: #e4e5e7;
+}
+
+.fa-soundcloud:hover {
+    color: #e4e5e7;
 }
 
 
-
+.btn-primary:hover,
+.btn-primary-gallery:hover {
+    background-color: #e4e5e7;
+    border-color: #e4e5e7;
+    color: white;
+}
