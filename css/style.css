@@ -1,15 +1,26 @@
-html,
 body {
     /* background-color: #dcdcdc;*/
     font-family: 'Cormorant Garamond', serif;
+    margin: 0;
 }
 
 /*----------------------------------------Navbar*/
 
 .navbar {
     margin-bottom: 0;
+    padding: 0px;
     width: 100%;
-    border: 0
+    border: 0;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .nav-item-home {
@@ -21,37 +32,53 @@ body {
 }
 
 
+
 /*----------------------------------------Headings*/
 
 .main-heading {
     color: #fff;
+    font-size: 5rem;
+    font-weight: bold;
+    font-style: oblique;
+
 }
+
 .welcome {
     color: #fff;
+    font-weight: bold;
 }
+
 .gallery {
     color: #fff;
 }
+
 .connect {
-    color: #2a5885;
+    color: #14171a;
+    font-weight: bold;
 }
+
 .music {
-    color: #2a5885;
+    color: #14171a;
+    font-weight: bold;
 }
+
 .shows {
-    color: #2a5885;
+    color: #14171a;
+    font-weight: bold;
 }
+
 .news {
-    color: #2a5885;
+    color: #14171a;
+    font-weight: bold;
 }
+
+
 
 /*-----------------------------------------Buttons*/
 
 .btn-primary {
-    margin-bottom: 20px;
     font-weight: bold;
-    border-radius: 20px;
-    width: 200px;
+    width: 170px;
     color: #fff;
     background-color: #4285f4;
     border-color: #4285f4;
@@ -59,88 +86,156 @@ body {
 
 .btn-primary-gallery {
     font-weight: bold;
-    border-radius: 20px;
     width: 100px;
-    padding:
-    color: #fff;
+    padding: color: #fff;
     background-color: #4285f4;
     border-color: #4285f4;
 }
-/*-----------------------------------------jumbotron*/
 
-.jumbotron {
+.card-btn {
+    width: 100px;
+    border-radius: 20px;
+
 }
 
+/*-----------------------------------------jumbotron*/
+
 .group {
-background: url("../images/group.jpg") no-repeat center fixed;
-background-color: transparent:
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-display: flex;
-align-items: center;
-justify-content: cover;
+    background-color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: cover;
 
 }
 
 .image {
-height: 100vh;
-background-attachment: fixed;
-background: url("../images/guitar.jpg");
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background: url("../images/group.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-band {
-width: 300px;
-height: 200px;
-border: 2px solid #000;
-float: right;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    border: 2px solid #000;
+    float: right;
+
+}
+
+.image-band2 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    border: 2px solid #000;
+    float: right;
+
+}
+
+.image-band3 {
+    position: relative;
+    width: 170px;
+    height: 150px;
+    border: 2px solid #000;
+    float: right;
+
+}
+
+.image-band4 {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border: 2px solid #000;
+    float: right;
 
 }
 
 
 .table-container {
-    }
+    margin-top: 80px;
+    
+}
 
 .wrapper {
     background-color: #dcdcdc;
-}
-.news-container {}
 
-.music-container {}
-
-.card-container {}
-
-.connect-container {
-    background-color: #dcdcdc;
 }
 
-/*#News1 {
-    padding-top: 50px;
+.news-container {
+    background-color: #f46f30;
+}
+
+}
+
+.videos {
+    font-size: 2.5rem;
+
+}
+
+.container-head {
+    margin-top: 100px;
+}
+
+
+.show-container {
+    height: 100vh;
+    background-attachment: fixed;
+    background: url("../images/guitar.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+
+    display: flex;
+  
+    justify-content: center;
+}
+
+
+.music-section {
+    background-color: #f46f30;
+}
+
+
+
+
+
+
+.News1 {
+    margin: 20px;
+    padding: 20px;
     height: 300px;
-    color: #000;
+    color: #14171a;
     background-color: #fdf5e6;
 }
 
-#News2 {
-    padding-top: 50px;
+.News2 {
+    margin: 20px;
+    padding-top: 0px;
     height: 300px;
-    color: #fff;
-    background-color: #f46f30;
+    color: #14171a;
+    background-color: #dcf8c6;
 }
-#News3 {
-    padding-top: 50px;
-    height: 300px;
-    color: #fff;
-    background-color: #fbbc05;*/
+
+.News3 {
+    margin: 20px;
+    padding-top: 20px;
+    height: 250px;
+    color: #14171a;
+    background-color: #9bcfcc;
 }
 
 /*---------------social-links------------------*/
@@ -174,19 +269,31 @@ float: right;
     color: #ff5500;
 }
 
+
+
+.container-head {
+    padding-top: 80px;
+}
+
+
 /*------------------------------Hover-----*/
+
 .fa-facebook-square:hover {
     color: #e4e5e7;
 }
+
 .fa-twitter:hover {
     color: #e4e5e7;
 }
+
 .fa-instagram:hover {
     color: #e4e5e7;
 }
+
 .fa-youtube:hover {
     color: #e4e5e7;
 }
+
 .fa-spotify:hover {
     color: #e4e5e7;
 }
@@ -200,5 +307,32 @@ float: right;
 .btn-primary-gallery:hover {
     background-color: #e4e5e7;
     border-color: #e4e5e7;
-    color: white;
+
+}
+
+/*-------------------------------------Cards------*/
+
+.card-sound {
+    background-color: #dcdcdc;
+    border-radius: 80px;
+    border: 2px solid #000;
+
+}
+
+.card-audio {
+    background-color: #dcdcdc;
+    border-radius: 80px;
+    border: 2px solid #000;
+}
+
+.card-img-top {
+    border-radius: 80px;
+}
+
+/*-------------------------------------Divider-----*/
+
+.divider {
+    border: 1px solid;
+    color: #38027c;
+    width: 50%;
 }
