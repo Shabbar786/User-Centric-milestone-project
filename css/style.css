@@ -1,7 +1,6 @@
 body {
-    /* background-color: #dcdcdc;*/
     font-family: 'Cormorant Garamond', serif;
-    margin: 0;
+    margin: 0px;
 }
 
 /*----------------------------------------Navbar*/
@@ -74,6 +73,7 @@ body {
 
 
 
+
 /*-----------------------------------------Buttons*/
 
 .btn-primary {
@@ -106,7 +106,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*display: flex;*/
+    display: flex;
     align-items: center;
     justify-content: cover;
 
@@ -162,21 +162,21 @@ body {
 
 }
 
-
 .table-container {
-    margin-top: 80px;
-    
+    margin-top: 100px;
+    padding: 20px;
+    font-weight: bold;
+
 }
 
 .wrapper {
-    background-color: #dcdcdc;
-
+    background-color: #ecdcea;
+    border-radius: 80px;
+    opacity: 0.75
 }
 
 .news-container {
     background-color: #f46f30;
-}
-
 }
 
 .videos {
@@ -185,31 +185,36 @@ body {
 }
 
 .container-head {
-    margin-top: 100px;
+  
+    height: 100vh;
+    background-attachment: fixed;
+    background: url("../images/social.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
 .show-container {
     height: 100vh;
     background-attachment: fixed;
-    background: url("../images/guitar.jpg");
+    background: url("../images/image.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
 
     display: flex;
-  
     justify-content: center;
+
 }
 
 
 .music-section {
     background-color: #f46f30;
+    padding-bottom: 20px;
 }
-
-
 
 
 
@@ -220,22 +225,31 @@ body {
     height: 300px;
     color: #14171a;
     background-color: #fdf5e6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .News2 {
     margin: 20px;
-    padding-top: 0px;
-    height: 300px;
+    padding: 0px;
+    height: 310px;
     color: #14171a;
-    background-color: #dcf8c6;
+    background-color: #fdf5e6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .News3 {
     margin: 20px;
     padding-top: 20px;
-    height: 250px;
+    padding-left: 20px height: 270px;
     color: #14171a;
-    background-color: #9bcfcc;
+    background-color: #fdf5e6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /*---------------social-links------------------*/
@@ -270,11 +284,9 @@ body {
 }
 
 
-
-.container-head {
-    padding-top: 80px;
+.connect-container {
+    padding-top: 100px;
 }
-
 
 /*------------------------------Hover-----*/
 
@@ -334,5 +346,5 @@ body {
 .divider {
     border: 1px solid;
     color: #38027c;
-    width: 50%;
+    width: 15rem;
 }
