@@ -5,11 +5,13 @@ body {
 
 /*----------------------------------------Navbar*/
 
+.navbar-dark .navbar-toggler {
+    border: 0;
+}
 .navbar {
     margin-bottom: 0;
     padding: 0px;
     width: 100%;
-    border: 0;
 }
 
 .navbar-nav li {
@@ -30,8 +32,6 @@ body {
     font-weight: bold;
 }
 
-
-
 /*----------------------------------------Headings*/
 
 .main-heading {
@@ -43,12 +43,14 @@ body {
 }
 
 .welcome {
-    color: #fff;
+    color: #f46f30;
     font-weight: bold;
 }
 
 .gallery {
     color: #fff;
+    font-size: 1.2rem;
+    padding: 20px;
 }
 
 .connect {
@@ -71,9 +73,6 @@ body {
     font-weight: bold;
 }
 
-
-
-
 /*-----------------------------------------Buttons*/
 
 .btn-primary {
@@ -84,12 +83,12 @@ body {
     border-color: #4285f4;
 }
 
-.btn-primary-gallery {
+.btn-light {
     font-weight: bold;
     width: 100px;
-    padding: color: #fff;
-    background-color: #4285f4;
-    border-color: #4285f4;
+    color: #fff;
+    background-color: #14171a;
+    border-color: #f46f30;
 }
 
 .card-btn {
@@ -99,13 +98,16 @@ body {
 }
 
 /*-----------------------------------------jumbotron*/
-
+.jumbotron {
+    position: absolute;
+}
 .group {
     background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: cover;
@@ -175,6 +177,11 @@ body {
     opacity: 0.75
 }
 
+.shows-section {
+    position: relative;
+    width: 100%
+}
+
 .news-container {
     background-color: #f46f30;
 }
@@ -185,7 +192,7 @@ body {
 }
 
 .container-head {
-  
+    position: relative;
     height: 100vh;
     background-attachment: fixed;
     background: url("../images/social.jpg");
@@ -210,16 +217,14 @@ body {
 
 }
 
-
 .music-section {
     background-color: #f46f30;
     padding-bottom: 20px;
 }
 
 
-
-
 .News1 {
+    display: inline-table;
     margin: 20px;
     padding: 20px;
     height: 300px;
@@ -231,6 +236,7 @@ body {
 }
 
 .News2 {
+    display: inline-table;
     margin: 20px;
     padding: 0px;
     height: 310px;
@@ -242,6 +248,7 @@ body {
 }
 
 .News3 {
+    display: inline-table;
     margin: 20px;
     padding-top: 20px;
     padding-left: 20px height: 270px;
@@ -255,7 +262,7 @@ body {
 /*---------------social-links------------------*/
 
 .social-links a {
-    font-size: 64px;
+    font-size: 50px;
     padding: 48px;
 }
 
@@ -288,6 +295,10 @@ body {
     padding-top: 100px;
 }
 
+.social-links {
+    margin-top: 2rem;
+}
+
 /*------------------------------Hover-----*/
 
 .fa-facebook-square:hover {
@@ -316,13 +327,20 @@ body {
 
 
 .btn-primary:hover,
-.btn-primary-gallery:hover {
+.btn-light:hover {
     background-color: #e4e5e7;
     border-color: #e4e5e7;
 
 }
 
 /*-------------------------------------Cards------*/
+
+.card {
+    background-color: #dcdcdc;
+    border-radius: 80px;
+    border: 2px solid #000;
+
+}
 
 .card-sound {
     background-color: #dcdcdc;
@@ -348,3 +366,58 @@ body {
     color: #38027c;
     width: 15rem;
 }
+
+/*------------------------------------Media-queries*/
+
+@media (max-width: 767px) {
+    .social-links a {
+        font-size: 40px;
+        padding: 24px;
+    }
+    .card-sound,
+    .card-audio {
+        margin-top: 10px;
+        margin-bottom: 1rem;
+        font-size: 80%
+    }
+    .image {
+        height: 50vh;
+    }
+    .jumbotron {
+        height: 20vh;
+    }
+    .main-heading {
+        font-size: 2.5rem;
+    
+    }
+    .gallery {
+        color: #fff;
+        font-size: 0.8rem;
+    }
+    .btn-light,
+        {
+        width: 60px;
+        color: #fff;
+    }
+
+    .videos {
+        display: none;
+    }
+    .table-container {
+        font-size: 80%;
+
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+*
+/*/
