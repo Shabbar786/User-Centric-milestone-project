@@ -3,11 +3,12 @@ body {
     margin: 0px;
 }
 
-/*----------------------------------------Navbar*/
+/*--------------==-----Navbar-----------------------*/
 
 .navbar-dark .navbar-toggler {
     border: 0;
 }
+
 .navbar {
     margin-bottom: 0;
     padding: 0px;
@@ -32,7 +33,7 @@ body {
     font-weight: bold;
 }
 
-/*----------------------------------------Headings*/
+/*---------------------Headings---------------------*/
 
 .main-heading {
     color: #fff;
@@ -40,6 +41,10 @@ body {
     font-weight: bold;
     font-style: oblique;
 
+}
+
+.head {
+    margin-left: 10px;
 }
 
 .welcome {
@@ -73,14 +78,14 @@ body {
     font-weight: bold;
 }
 
-/*-----------------------------------------Buttons*/
+/*---------------------Buttons-----------------------*/
 
 .btn-primary {
     font-weight: bold;
     width: 170px;
     color: #fff;
-    background-color: #4285f4;
-    border-color: #4285f4;
+    background-color: #14171a;
+    border-color: #f46f30;
 }
 
 .btn-light {
@@ -97,10 +102,16 @@ body {
 
 }
 
-/*-----------------------------------------jumbotron*/
+.button {
+    color: #f46f30;
+}
+
+/*--------------------Jumbotron--------------------*/
+
 .jumbotron {
     position: absolute;
 }
+
 .group {
     background-color: transparent;
     -webkit-background-size: cover;
@@ -114,6 +125,8 @@ body {
 
 }
 
+/*---------------------Image-----------------------*/
+
 .image {
     height: 100vh;
     background-attachment: fixed;
@@ -126,6 +139,45 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*---------------------News-----------------------*/
+
+.News1 {
+    display: inline-table;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    color: #14171a;
+    background-color: #fdf5e6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.News2 {
+    display: inline-table;
+    margin: 20px;
+    padding: 20px;
+    height: 330px;
+    color: #14171a;
+    background-color: #fdf5e6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.News3 {
+    display: inline-table;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 20px height: 270px;
+    color: #14171a;
+    background-color: #fdf5e6;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 .image-band {
@@ -164,7 +216,14 @@ body {
 
 }
 
+.news-container {
+    background-color: #f46f30;
+}
+
+/*----------------------Table-----------------------*/
+
 .table-container {
+    height: auto;
     margin-top: 100px;
     padding: 20px;
     font-weight: bold;
@@ -182,29 +241,9 @@ body {
     width: 100%
 }
 
-.news-container {
-    background-color: #f46f30;
-}
-
-.videos {
-    font-size: 2.5rem;
-
-}
-
-.container-head {
-    position: relative;
-    height: 100vh;
-    background-attachment: fixed;
-    background: url("../images/social.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
 .show-container {
-    height: 100vh;
+    height: auto;
+    padding: 40px;
     background-attachment: fixed;
     background: url("../images/image.jpg");
     -webkit-background-size: cover;
@@ -217,46 +256,39 @@ body {
 
 }
 
+/*-------------------Music/Cards-----------------------*/
+
+.videos {
+    font-size: 2.5rem;
+}
+
 .music-section {
     background-color: #f46f30;
     padding-bottom: 20px;
 }
 
+.card-audio {
+    background-color: #dcdcdc;
+    border-radius: 80px;
+    border: 2px solid #000;
 
-.News1 {
-    display: inline-table;
-    margin: 20px;
-    padding: 20px;
-    height: 300px;
-    color: #14171a;
-    background-color: #fdf5e6;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.News2 {
-    display: inline-table;
-    margin: 20px;
-    padding: 0px;
-    height: 310px;
-    color: #14171a;
-    background-color: #fdf5e6;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+.card-sound {
+    background-color: #dcdcdc;
+    border-radius: 80px;
+    border: 2px solid #000;
+
 }
 
-.News3 {
-    display: inline-table;
-    margin: 20px;
-    padding-top: 20px;
-    padding-left: 20px height: 270px;
-    color: #14171a;
-    background-color: #fdf5e6;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+.card-video {
+    background-color: #dcdcdc;
+    border-radius: 80px;
+    border: 2px solid #000;
+}
+
+.card-img-top {
+    border-radius: 80px;
 }
 
 /*---------------social-links------------------*/
@@ -299,7 +331,18 @@ body {
     margin-top: 2rem;
 }
 
-/*------------------------------Hover-----*/
+.container-head {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background: url("../images/social.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*-------------------Hover--------------------*/
 
 .fa-facebook-square:hover {
     color: #e4e5e7;
@@ -333,33 +376,7 @@ body {
 
 }
 
-/*-------------------------------------Cards------*/
-
-.card {
-    background-color: #dcdcdc;
-    border-radius: 80px;
-    border: 2px solid #000;
-
-}
-
-.card-sound {
-    background-color: #dcdcdc;
-    border-radius: 80px;
-    border: 2px solid #000;
-
-}
-
-.card-audio {
-    background-color: #dcdcdc;
-    border-radius: 80px;
-    border: 2px solid #000;
-}
-
-.card-img-top {
-    border-radius: 80px;
-}
-
-/*-------------------------------------Divider-----*/
+/*--------------------Divider-------------------*/
 
 .divider {
     border: 1px solid;
@@ -367,16 +384,21 @@ body {
     width: 15rem;
 }
 
-/*------------------------------------Media-queries*/
+/*------------------Media-queries---------------*/
 
 @media (max-width: 767px) {
     .social-links a {
-        font-size: 40px;
+        font-size: 30px;
         padding: 24px;
     }
+
+    .show-container {
+        height: auto;
+    }
     .card-sound,
-    .card-audio {
-        margin-top: 10px;
+    .card-audio,
+    .card-video {
+        margin-top: 5px;
         margin-bottom: 1rem;
         font-size: 80%
     }
@@ -388,14 +410,13 @@ body {
     }
     .main-heading {
         font-size: 2.5rem;
-    
+
     }
     .gallery {
         color: #fff;
         font-size: 0.8rem;
     }
-    .btn-light,
-        {
+    .btn-light {
         width: 60px;
         color: #fff;
     }
@@ -404,7 +425,9 @@ body {
         display: none;
     }
     .table-container {
-        font-size: 80%;
+        font-size: 50%;
+        display: inline-table;
+        letter-spacing: 0.2px;
 
     }
 

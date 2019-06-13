@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <!------Navigation------->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-expand-sm">
+    <!------------------Navigation------------------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-expand-sm fixed-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbart" aria-expanded="false" aria-label="Toggle navigation">  
           <span class="navbar-toggler-icon"></span>  
@@ -49,15 +49,14 @@
                 <div class="group jumbotron text-center">
                     <div id="Home">
                         <h1 class="main-heading">The Monkees</h1>
-                       
-                 
-                        <a class="btn btn-light btn-sm" href="../images/band.jpg" target="_blank" role="button">Gallery</a>
+                        <a class="btn btn-light btn-sm" href="../gallery.html" role="button">Gallery</a>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--------News-------->
+    <!-----------------News-section----------------->
     <div class="container-fluid news-container">
         <section class="news-section">
             <div class="container">
@@ -70,7 +69,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="News1">
-                                    <h1>Latest...</h1>
+                                    <h1 class="head">Latest...</h1>
                                     <div class="col d-none d-sm-block">
                                         <img src="../images/band2.jpg" class="image-band"></img>
                                     </div>
@@ -78,7 +77,7 @@
                                         <p class="lead">The Monkees have announced another World tour starting <mark>Next year!</mark></p>
                                         <p class="lead">Thats right, fans all over the world this is the news you have been waiting for. Due to the record breaking success of last years world tour, in which the Monkees toured over 20 contries they have just announced
                                             another one but bigger and better!</p>
-                                        <a href="#" target="_blank" role="button">[Read more]</a>
+                                        <a class="button" href="#" target="_blank" role="button">[Read more...]</a>
                                     </div>
                                 </div>
                             </div>
@@ -106,8 +105,8 @@
                                     <div class="col">
                                         <div class="News3">
                                             <h1 class="mb-4">The Monkees are now available for booking</h1>
-                                            <p class="lead">Bring the magic of The Monkees live to your home. Good news! The Monkees are now avaible for bookings. Whether it be for a private occassions or special events like Christmas or weddings, Monkees wll guarantee
-                                                to make it a day to remember.</p>
+                                            <p class="lead">Bring the magic of The Monkees live to your home. The Monkees are now avaible for bookings. Whether it be for a private occassions or special events like Christmas or weddings, Monkees wll guarantee to make
+                                                it a day to remember.</p>
                                             <button class="btn btn-primary btn-sm my-3" data-toggle="modal" data-target="#bookings">For Bookings click here!</button>
                                         </div>
                                     </div>
@@ -119,7 +118,7 @@
             </div>
         </section>
     </div>
-    <!--------Table-------->
+    <!--------------Table-section--------------->
     <div class="container-fluid show-container">
         <section class="shows-section">
             <div class="container table-container">
@@ -133,9 +132,9 @@
                             <table class="table table-striped text-center">
                                 <tbody>
                                     <tr>
-                                        <td>Date</td>
-                                        <td>Event</td>
-                                        <td>Location</td>
+                                        <td class="text-uppercase">Date</td>
+                                        <td class="text-uppercase">Event</td>
+                                        <td class="text-uppercase">Location</td>
                                     </tr>
                                     <tr>
                                         <td>Sun, Jun 9 @ 7:00PM</td>
@@ -195,7 +194,7 @@
             </div>
         </section>
     </div>
-    <!------Music------>
+    <!---------------Music-section-------------->
     <div class="container-fluid music-section">
         <div class="row">
         </div>
@@ -209,15 +208,15 @@
                 </div>
             </div>
         </div>
-        <!-------Cards---------->
+        <!----------------Cards-section----------->
         <div class="container card-container my-3">
             <div class="row">
                 <div class="col-md-4 d-md-none d-sm-block">
-                    <div class="card">
+                    <div class="card-audio">
                         <img src="../images/band3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title">Videos</h4>
-                            <p class="card-text"> Compilation of the Greatest hits.</p>
+                            <h4 class="card-title">Audio</h4>
+                            <p class="card-text">Listen to the Greatest tracks in MP3 format</p>
                             <a href="#" class="btn btn-primary btn-sm card-btn">Go to Videos</a>
                         </div>
                     </div>
@@ -233,11 +232,11 @@
                     </div>
                 </div>
                 <div class="col-md-4 offset-md-2">
-                    <div class="card-audio">
+                    <div class="card-video">
                         <img src="../images/band3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h4 class="card-title">Audio</h4>
-                            <p class="card-text">Listen to the Greatest tracks in MP3 format.</p>
+                            <h4 class="card-title">Videos</h4>
+                            <p class="card-text">Compilation of the Greatest hits..</p>
                             <a href="#" class="btn btn-primary btn-sm card-btn">Click to Listen</a>
                         </div>
                     </div>
@@ -295,19 +294,20 @@
                     <a href=""><i class="fab fa-spotify"></i></a>
                     <a href=""><i class="fab fa-soundcloud"></i></a>
                 </div>
-         </div>
-                <div class="row">
-                    <div class="col text-center">
-                 <h4>
-                <blockquote class="blockquote my-3">“We can tell you all that this is a group that you should be paying attention to.<br>Throughout the United states, keep an eye out for tour dates near you.”</blockquote>
-                </h4>
-                <small class="text-muted">-The New York Times</small>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h4>
+                        <blockquote class="blockquote my-3">“We can tell you all that this is a group that you should be paying attention to.<br>Throughout the United states, keep an eye out for tour dates near you.”</blockquote>
+                    </h4>
+                    <small class="text-muted">-The New York Times</small>
                 </div>
-                </div>
-         
+            </div>
+
         </div>
     </div>
-    <!-- Modal -->
+    <!------------------- Modal ------------------------->
+    
     <div class="modal fade" id="bookings" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
