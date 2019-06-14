@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <!------------------Navigation------------------->
+    <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-expand-sm fixed-top">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbart" aria-expanded="false" aria-label="Toggle navigation">  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">  
           <span class="navbar-toggler-icon"></span>  
       </button>
             <div>
@@ -38,25 +38,29 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#Connect">Connect</a>
                         </li>
+                        <li class="nav-item text">
+                            <a class="nav-link" href="../gallery.html">Gallery</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container-fluid head-container">
-        <div class="row image">
-            <div class="col-md-4 offset-md-1 mb-5">
-                <div class="group jumbotron text-center">
-                    <div id="Home">
-                        <h1 class="main-heading">The Monkees</h1>
-                        <a class="btn btn-light btn-sm" href="../gallery.html" role="button">Gallery</a>
-                        
+    <div id="Home">
+        <div class="container-fluid head-container">
+            <div class="row image">
+                <div class="col-md-4 offset-md-1 mb-5">
+                    <div class="group jumbotron text-center">
+                        <div>
+                            <h1 class="main-heading">The Monkees</h1>
+                            <!-- <a class="btn btn-light btn-sm" href="../gallery.html" role="button">Gallery</a>-->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-----------------News-section----------------->
+    <!--News-section-->
     <div class="container-fluid news-container">
         <section class="news-section">
             <div class="container">
@@ -71,7 +75,7 @@
                                 <div class="News1">
                                     <h1 class="head">Latest...</h1>
                                     <div class="col d-none d-sm-block">
-                                        <img src="../images/band2.jpg" class="image-band"></img>
+                                        <img src="../images/band2.jpg" alt="band-image" class="image-band"></img>
                                     </div>
                                     <div class="col">
                                         <p class="lead">The Monkees have announced another World tour starting <mark>Next year!</mark></p>
@@ -89,13 +93,16 @@
                                     <p class="lead">From T-shirts to mugs, The Monkees will have there own brand of merchandise for you to choose from. For all ages and sizes every item will be available on this very website. Stay tuned for updates...</p>
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <img src="../images/shirt.jpg" class="image-band2"></img>
+                                            <img src="../images/shirt.jpg" alt="image-shirt" class="image-band2">
+                                            </img>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="../images/hat.jpg" class="image-band3"></img>
+                                            <img src="../images/hat.jpg" alt="image-hat" class="image-band3">
+                                            </img>
                                         </div>
                                         <div class="col-md-3">
-                                            <img src="../images/car.jpg" class="image-band4"></img>
+                                            <img src="../images/car.jpg" alt="image-car" class="image-band4">
+                                            </img>
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +112,7 @@
                                     <div class="col">
                                         <div class="News3">
                                             <h1 class="mb-4">The Monkees are now available for booking</h1>
-                                            <p class="lead">Bring the magic of The Monkees live to your home. The Monkees are now avaible for bookings. Whether it be for a private occassions or special events like Christmas or weddings, Monkees wll guarantee to make
+                                            <p class="lead">Bring the magic of The Monkees live to your home. The Monkees are now avaible for bookings. Whether it be for private occassions or special events like Christmas or weddings, The Monkees wll guarantee to make
                                                 it a day to remember.</p>
                                             <button class="btn btn-primary btn-sm my-3" data-toggle="modal" data-target="#bookings">For Bookings click here!</button>
                                         </div>
@@ -118,7 +125,7 @@
             </div>
         </section>
     </div>
-    <!--------------Table-section--------------->
+    <!--Table-section-->
     <div class="container-fluid show-container">
         <section class="shows-section">
             <div class="container table-container">
@@ -194,7 +201,7 @@
             </div>
         </section>
     </div>
-    <!---------------Music-section-------------->
+   <!-- Music-section-->
     <div class="container-fluid music-section">
         <div class="row">
         </div>
@@ -208,7 +215,7 @@
                 </div>
             </div>
         </div>
-        <!----------------Cards-section----------->
+    <!--Cards-section-->
         <div class="container card-container my-3">
             <div class="row">
                 <div class="col-md-4 d-md-none d-sm-block">
@@ -261,13 +268,13 @@
             </div>
         </div>
     </div>
-    <!------Connet------>
+    <!--Connet-->
     <div class="container-head">
         <div class="container connect-container">
             <div class="row header-connect">
                 <div class="col">
                     <div id="Connect">
-                        <h1 class="text-center text-uppercase connect my-4">Connect</h1>
+                        <h1 class="text-center text-uppercase connect">Connect</h1>
                     </div>
                     <hr class="divider">
                 </div>
@@ -276,7 +283,7 @@
                 <div class="row">
                     <div class="col text-center my-5">
                         <h3><strong>Stay In Touch!</strong></h3>
-                        <p> <i>Sign up for our news letter and we will keep you updated every second on shows, pre-sales, new music and more.</i></p>
+                        <p class="font-weight-bold my-3">Sign up for our news letter and we will keep you updated every second on shows, pre-sales, new music and more.</p>
                         <form>
                             <label>Enter your Email-address</label><br>
                             <input type="email" name="email" required><br><br>
@@ -297,17 +304,14 @@
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <h4>
-                        <blockquote class="blockquote my-3">“We can tell you all that this is a group that you should be paying attention to.<br>Throughout the United states, keep an eye out for tour dates near you.”</blockquote>
-                    </h4>
+                    <blockquote class="blockquote my-3">“We can tell you all that this is a group that you should be paying attention to.<br>Throughout the United states, keep an eye out for tour dates near you.”</blockquote>
                     <small class="text-muted">-The New York Times</small>
                 </div>
             </div>
 
         </div>
     </div>
-    <!------------------- Modal ------------------------->
-    
+   <!-- Modal -->
     <div class="modal fade" id="bookings" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -320,12 +324,12 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="Name">Name</label>
-                            <input type="name" class="form-control" id="name" placeholder="name">
+                            <label for="name1">Name</label>
+                            <input type="text" class="form-control" id="name1" placeholder="name">
                         </div>
                         <div class="form-group">
-                            <label for="contactnumber">Contact Number</label>
-                            <input type="contactnumber" class="form-control" id="contactnumber" placeholder="contactnumber">
+                            <label for="contactnumber1">Contact Number</label>
+                            <input type="contactnumber" class="form-control" id="contactnumber1" placeholder="contactnumber">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>

@@ -171,7 +171,8 @@ body {
     display: inline-table;
     margin: 20px;
     padding: 20px;
-    padding-left: 20px height: 270px;
+    padding-left: 20px;
+    height: 270px;
     color: #14171a;
     background-color: #fdf5e6;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -442,5 +443,4 @@ body {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }*/
 
-*
 /*/
