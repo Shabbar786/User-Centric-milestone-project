@@ -22,6 +22,8 @@ Also for the user i wanted simplicity and not overcrowding them with lots of inf
 ![GitHub Webpage](/index.html)
 Format: ![band](url)
 
+![alt text](https://shabbar786.github.io/User-Centric-milestone-project/)
+
 #### Technologies
 
 -  Cloud9.
@@ -32,7 +34,7 @@ Format: ![band](url)
 
 #### Setup
 
-To be able to view this product you can access through github or https://hello-world-shabbar786.c9users.io/index.html
+To be able to view this product you can access through github or https://shabbar786.github.io/User-Centric-milestone-project/
 
 ### Features
 
