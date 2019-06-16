@@ -41,7 +41,6 @@ body {
     font-size: 5rem;
     font-weight: bold;
     font-style: oblique;
-
 }
 
 .head {
@@ -123,7 +122,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: cover;
-
 }
 
 /*---------------------Image-----------------------*/
@@ -197,7 +195,6 @@ body {
     height: 150px;
     border: 2px solid #000;
     float: right;
-
 }
 
 .image-band3 {
@@ -206,7 +203,6 @@ body {
     height: 150px;
     border: 2px solid #000;
     float: right;
-
 }
 
 .image-band4 {
@@ -215,7 +211,6 @@ body {
     height: 150px;
     border: 2px solid #000;
     float: right;
-
 }
 
 .news-container {
@@ -229,7 +224,6 @@ body {
     margin-top: 100px;
     padding: 20px;
     font-weight: bold;
-
 }
 
 .wrapper {
@@ -255,7 +249,6 @@ body {
 
     display: flex;
     justify-content: center;
-
 }
 
 /*-------------------Music/Cards-----------------------*/
@@ -324,7 +317,6 @@ body {
     color: #ff5500;
 }
 
-
 .connect-container {
     padding-top: 100px;
 }
@@ -374,12 +366,10 @@ body {
     color: #dcdcdc;
 }
 
-
 .btn-primary:hover,
 .btn-light:hover {
     background-color: #e4e5e7;
     border-color: #e4e5e7;
-
 }
 
 /*--------------------Divider-------------------*/
@@ -439,7 +429,6 @@ body {
     .main-heading {
         margin-bottom: 10rem;
         margin-left: 4rem;
-
     }
 
 }
@@ -448,12 +437,10 @@ body {
  Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {..}
 
-
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }*/
 
-*/
 /*/
