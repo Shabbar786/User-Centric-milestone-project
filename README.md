@@ -31,7 +31,7 @@ Also for the user i wanted simplicity and not overcrowding them with lots of inf
 
 #### Setup
 
-To be able to view this product you can access through github or https://shabbar786.github.io/User-Centric-milestone-project/
+To be able to view this project you can access through github or https://shabbar786.github.io/User-Centric-milestone-project/
 
 ### Features
 
