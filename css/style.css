@@ -36,6 +36,7 @@ body {
 /*---------------------Headings---------------------*/
 
 .main-heading {
+    margin-bottom: 23rem;
     color: #fff;
     font-size: 5rem;
     font-weight: bold;
@@ -369,6 +370,10 @@ body {
     color: #e4e5e7;
 }
 
+.submit:hover {
+    color: #dcdcdc;
+}
+
 
 .btn-primary:hover,
 .btn-light:hover {
@@ -429,13 +434,20 @@ body {
         font-size: 50%;
         display: inline-table;
         letter-spacing: 0.2px;
+    }
+
+    .main-heading {
+        margin-bottom: 10rem;
+        margin-left: 4rem;
 
     }
 
 }
 
-/*// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/*
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {..}
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
@@ -443,4 +455,5 @@ body {
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }*/
 
+*/
 /*/
