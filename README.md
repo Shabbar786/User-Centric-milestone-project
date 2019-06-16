@@ -75,6 +75,3 @@ This project is for educational use only, the project was inspired for the bette
 ### Contact
 
 Created by Mohammed shabbar, feel free to contact me on mohammed.shabbar1982@gmail.com.
-
-![GitHub Logo](images/band1.jpg)
-Format: ![band](url)
