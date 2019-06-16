@@ -19,9 +19,6 @@ Main aim of the design was to make it easy and user friendly with quality intera
 
 Also for the user i wanted simplicity and not overcrowding them with lots of information but at the same time providing them with appealing and relevant content.
 
-![GitHub Webpage](/index.html)
-Format: ![band](url)
-
 ![alt text](https://shabbar786.github.io/User-Centric-milestone-project/)
 
 #### Technologies
