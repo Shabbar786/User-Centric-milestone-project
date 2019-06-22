@@ -1,11 +1,11 @@
 User-Centric Frontend Development Milestone Project  
 ------------------------
 
-The is my front-end only website for a 1960’s rock band known as 'The Monkees'. The primary targeted audience were the fans and for them 
+The is my front-end only website for a 1960’s rock band known as 'The Monkees'. The targeted audience were mainly the fans and for them 
 to be able to use the site to access music either through an archive collection or any latest sounds available. 
 
-Other features include Band availability for private bookings and a new social media presence and the latest news to keep all updated with current events. This will bring an array of benefits
-as everything will be able to be achieved by a click of teh button, such as getting into contact or viewing the latest music.
+Other features include band availability for private bookings and a new social media presence and the latest news to keep all updated with current events. This will bring an array of benefits
+as everything will be able to be achieved by a click of a button, such as getting into contact or viewing the latest music.
 
 #### Table of contents
 * [Design](#design)
@@ -19,14 +19,14 @@ as everything will be able to be achieved by a click of teh button, such as gett
 * [Contact](#contact)
 
 #### Design
-When coming up with the design of the site, the concept was to make it easy and user friendly with quality interaction between a fan and there favourite band. 
+When coming up with the design of the site, the concept was to make it easy and user friendly with quality interaction between a fan and their favourite band. 
 
-Also for the viewers I wanted simplicity and not overcrowding them with lots of information but at the same time providing them with appealing and relevant content. This also includes young viewers who are not
+Also for the viewers I wanted simplicity and not overcrowding them with lots of information but at the same time providing them with appealing and relevant content. This also includes young and old viewers who are not
 very computer savvy but will still be able to manouver around the site with ease.
 
-<!--
-![GitHub Logo](images/band1.jpg)
-Format: ![band](url)-->
+
+![GitHub Logo](images/cover.png)
+Format: ![band](url)
 
 #### Technologies
 
@@ -49,7 +49,7 @@ List of features ready and Todo's for future development
 
 - Feature 1- Bootstrap navbar which collapses in mobile view.
 - Feature 2 - Modal with a popup window which appears in centre screen
-- Feature 3 - Responsive grid images when gallery link is selelcted.
+- Feature 3 - Responsive grid images when gallery link is selected.
 
 To-do list:
 
@@ -69,8 +69,8 @@ unattractive. The bug fix was to set the height of the images in CSS to 'Auto' a
 Under the connect section if you tried to submit the email section without having entered anything in the box an error message will appear stating 'Fill out this field'. Also if you tried to enter
 anything that was not an email address then also you would see a error message stating 'Enter an email address'.
 
-All buttons had a subtle changes in color when hovered over them. I also changed the site in responsive mode under music section, I removed the iframes for the videos and another card was added titled Audio. This would give you the option to listen to their music in Mp3 
-format, the reason for this was the iframes made the mobile view very unappealing and too much clutter. With the xtra card added it looks more visually more desirable.
+All buttons had a subtle changes in color when hovered over them. I also changed the site in responsive mode under music section, I removed the iframes for the videos and another music card was added titled 'Audio'. This would give you the option to listen to their music in Mp3 
+format, the reason for this was the iframes made the mobile view very unappealing with too much clutter. The the extra card added a more visually more desirable look.
 
 
 
