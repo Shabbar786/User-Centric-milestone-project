@@ -422,6 +422,9 @@ body {
         margin-bottom: 10rem;
         margin-left: 4rem;
     }
+.blockquote {
+        font-size: 100%
+    }
 
 }
 
