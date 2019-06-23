@@ -87,26 +87,29 @@ This project is for educational use only, the project was inspired for the bette
 
 All images were taken from the websites below:
 
-[Site1][image], [Site2](https://5dcreations.com/branding/20-free-social-media-background-1/ ), [Site3](https://www.tvinsider.com/756298/watch-the-monkees-tv-series-metv/), [Site4](https://www.npr.org/2018/12/29/676852011/the-monkees-tried-to-cut-their-strings-with-head?t=1560453184534), 
+- [Site1][image], [Site2](https://5dcreations.com/branding/20-free-social-media-background-1/ ), [Site3](https://www.tvinsider.com/756298/watch-the-monkees-tv-series-metv/), [Site4](https://www.npr.org/2018/12/29/676852011/the-monkees-tried-to-cut-their-strings-with-head?t=1560453184534), 
 
 [image]: https://www.monkees.net/monkees-art-piece/, 
 
-[Site5](https://www.pinterest.co.uk/pin/237001999119075592/), [Site6](http://nightflight.com/merry-christmas-the-monkeess-a-cappella-version-of-the-traditional-spanish-carol-riu-riu-chiu/), [Site7](https://instrumentalfx.co/the-monkees-im-a-believer-instrumental/), [Site8](https://www.pinterest.com/pin/143974519307681728/)
+- [Site5](https://www.pinterest.co.uk/pin/237001999119075592/), [Site6](http://nightflight.com/merry-christmas-the-monkeess-a-cappella-version-of-the-traditional-spanish-carol-riu-riu-chiu/), [Site7](https://instrumentalfx.co/the-monkees-im-a-believer-instrumental/), [Site8](https://www.pinterest.com/pin/143974519307681728/)
 
+Merchandise images were taken from these websites.
+
+- [Hat](https://monkeesstore.warnermusic.com), [T-shirt](https://www.amazon.co.uk/Official-Monkees-Guitar-Logo-T-Shirt/dp/B07D5W2VYG), [Car](https://www.ebay.co.uk/p/The-Monkees-4-5-Vinyl-Figures-Titans-Michael-Nesmith/2242021122)
 
 ### Acknowledgements
 
-My responsive image grid code was mentored around this
+- My responsive Image Grid code was mentored around this
 [site][Grid].
 
 [Grid]:https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
-Majority of color codes used for the webpage including social media icons were also taken from this
+- Majority of color codes used for the webpage including social media icons were also taken from this
 [site][Colors].
 
 [colors]: https://www.lockedownseo.com/social-media-colors/
 
-Webpages where the code validation was checked were from these sites
+- Webpages where the code validation was checked were from these sites
 [W3C][Code], and [W3C/CSS](https://jigsaw.w3.org/css-validator/)
 
 [code]: https://validator.w3.org
