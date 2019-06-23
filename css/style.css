@@ -108,20 +108,12 @@ body {
 
 /*--------------------Jumbotron--------------------*/
 
-.jumbotron {
-    position: absolute;
-}
-
 .group {
     background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: cover;
 }
 
 /*---------------------Image-----------------------*/

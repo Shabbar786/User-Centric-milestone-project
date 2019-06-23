@@ -26,7 +26,6 @@ very computer savvy but will still be able to manouver around the site with ease
 
 
 ![GitHub Logo](images/cover.png)
-Format: ![band](url)
 
 #### Technologies
 
@@ -69,10 +68,12 @@ unattractive. The bug fix was to set the height of the images in CSS to 'Auto' a
 Under the connect section if you tried to submit the email section without having entered anything in the box an error message will appear stating 'Fill out this field'. Also if you tried to enter
 anything that was not an email address then also you would see a error message stating 'Enter an email address'.
 
-All buttons had a subtle changes in color when hovered over them. I also changed the site in responsive mode under music section, I removed the iframes for the videos and another music card was added titled 'Audio'. This would give you the option to listen to their music in Mp3 
+All buttons had a subtle changes in color to my desirement when hovered over them. I also changed the site in responsive mode under music section, I removed the iframes for the videos and another music card was added titled 'Audio'. This would give you the option to listen to their music in Mp3 
 format, the reason for this was the iframes made the mobile view very unappealing with too much clutter. The the extra card added a more visually more desirable look.
 
+All code was validated using the websites 'W3C Markup Validation Service' and 'W3C CSS Validation Service', links to the websites can be found under Acknowledgements section. 
 
+Initially some errors were found that were not to serious and were rectified such as my images did not have an 'alt' attribute, which was added after. Also my iframes 'frameborder="0"' in the index.html was obsolete and was ot required, so I removed the code.
 
 ### Status
 
@@ -86,9 +87,9 @@ This project is for educational use only, the project was inspired for the bette
 
 All images were taken from the websites below:
 
-[Site1][Grid], [Site2](https://5dcreations.com/branding/20-free-social-media-background-1/ ), [Site3](https://www.tvinsider.com/756298/watch-the-monkees-tv-series-metv/), [Site4](https://www.npr.org/2018/12/29/676852011/the-monkees-tried-to-cut-their-strings-with-head?t=1560453184534), 
+[Site1][image], [Site2](https://5dcreations.com/branding/20-free-social-media-background-1/ ), [Site3](https://www.tvinsider.com/756298/watch-the-monkees-tv-series-metv/), [Site4](https://www.npr.org/2018/12/29/676852011/the-monkees-tried-to-cut-their-strings-with-head?t=1560453184534), 
 
-[Grid]: https://www.monkees.net/monkees-art-piece/, 
+[image]: https://www.monkees.net/monkees-art-piece/, 
 
 [Site5](https://www.pinterest.co.uk/pin/237001999119075592/), [Site6](http://nightflight.com/merry-christmas-the-monkeess-a-cappella-version-of-the-traditional-spanish-carol-riu-riu-chiu/), [Site7](https://instrumentalfx.co/the-monkees-im-a-believer-instrumental/), [Site8](https://www.pinterest.com/pin/143974519307681728/)
 
@@ -98,11 +99,17 @@ All images were taken from the websites below:
 My responsive image grid code was mentored around this
 [site][Grid].
 
+[Grid]:https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
-Majority of color codes used for the webpage were also taken from this
+Majority of color codes used for the webpage including social media icons were also taken from this
 [site][Colors].
 
 [colors]: https://www.lockedownseo.com/social-media-colors/
+
+Webpages where the code validation was checked were from these sites
+[W3C][Code], and [W3C/CSS](https://jigsaw.w3.org/css-validator/)
+
+[code]: https://validator.w3.org
 
 ### Contact
 
