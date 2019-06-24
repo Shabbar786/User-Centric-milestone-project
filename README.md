@@ -24,7 +24,7 @@ as everything will be able to be achieved by a click of a button, such as gettin
 When coming up with the design of the site, the concept was to make it easy and user friendly with quality interaction between a fan and their favourite band. 
 
 Also for the viewers I wanted simplicity and not overcrowding them with lots of information but at the same time providing them with appealing and relevant content. This also includes young and old viewers who are not
-very computer savvy but will still be able to manouver around the site with ease.
+very computer savvy but will still be able to manoeuvre around the site with ease.
 
 
 #### Technologies
@@ -48,7 +48,7 @@ List of features ready and Todo's for future development
 
 - Feature 1- Bootstrap navbar which collapses in mobile view.
 - Feature 2 - Modal with a popup window which appears in centre screen
-- Feature 3 - Responsive grid images when gallery link is selected.
+- Feature 3 - Responsive grid images when gallery link is selected in Navbar.
 
 To-do list:
 
@@ -69,11 +69,11 @@ Under the connect section if you tried to submit the email section without havin
 anything that was not an email address then also you would see a error message stating 'Enter an email address'.
 
 All buttons had a subtle changes in color to my desirement when hovered over them. I also changed the site in responsive mode under music section, I removed the iframes for the videos and another music card was added titled 'Audio'. This would give you the option to listen to their music in Mp3 
-format, the reason for this was the iframes made the mobile view very unappealing with too much clutter. The the extra card added a more visually more desirable look.
+format, the reason for this was the iframes made the mobile view very unappealing with too much clutter. The extra card added a more visually more desirable look.
 
 All code was validated using the websites 'W3C Markup Validation Service' and 'W3C CSS Validation Service', links to the websites can be found under Acknowledgements section. 
 
-Initially some errors were found that were not to serious and were rectified such as my images did not have an 'alt' attribute, which was added after. Also my iframes 'frameborder="0"' in the index.html was obsolete and was ot required, so I removed the code.
+Initially some errors were found during validation that were not too serious and were rectified straight away such as my images did not have an 'alt' attribute, which was added after. Also my iframes 'frameborder="0"' in the index.html was obsolete and was not required, so I removed the code.
 
 ### Status
 
