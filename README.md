@@ -1,5 +1,8 @@
-User-Centric Frontend Development Milestone Project  
-------------------------
+The Monkees
+============
+
+**User-Centric Frontend Development Milestone Project**  
+
 
 The is my front-end only website for a 1960’s rock band known as 'The Monkees'. The targeted audience were mainly the fans and for them 
 to be able to use the site to access music either through an archive collection or any latest sounds available. 
