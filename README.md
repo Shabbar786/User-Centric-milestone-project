@@ -4,6 +4,8 @@ User-Centric Frontend Development Milestone Project
 The is my front-end only website for a 1960’s rock band known as 'The Monkees'. The targeted audience were mainly the fans and for them 
 to be able to use the site to access music either through an archive collection or any latest sounds available. 
 
+![GitHub Logo](images/cover.png)
+
 Other features include band availability for private bookings and a new social media presence and the latest news to keep all updated with current events. This will bring an array of benefits
 as everything will be able to be achieved by a click of a button, such as getting into contact or viewing the latest music.
 
@@ -24,8 +26,6 @@ When coming up with the design of the site, the concept was to make it easy and 
 Also for the viewers I wanted simplicity and not overcrowding them with lots of information but at the same time providing them with appealing and relevant content. This also includes young and old viewers who are not
 very computer savvy but will still be able to manouver around the site with ease.
 
-
-![GitHub Logo](images/cover.png)
 
 #### Technologies
 
@@ -109,13 +109,19 @@ Merchandise images were taken from these websites.
 
 [colors]: https://www.lockedownseo.com/social-media-colors/
 
-- Webpages where the code validation was checked were from these sites
+- Websites for my code validation were done on these sites
 [W3C][Code], and [W3C/CSS](https://jigsaw.w3.org/css-validator/)
 
 [code]: https://validator.w3.org
 
+- Box shadowing for my news section was taken from
+[here][box].
+
+[box]: https://www.cssmatic.com/box-shadow
+
+
 ### Contact
 
-Created by Mohammed shabbar, feel free to contact me on mohammed.shabbar1982@gmail.com.
+Created by Mohammed Shabbar, contact me on mohammed.shabbar1982@gmail.com
 
 

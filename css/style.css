@@ -1,5 +1,5 @@
 body {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     margin: 0px;
 }
 
@@ -104,16 +104,6 @@ body {
 
 .button {
     color: #f46f30;
-}
-
-/*--------------------Jumbotron--------------------*/
-
-.group {
-    background-color: transparent;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 /*---------------------Image-----------------------*/
@@ -386,10 +376,12 @@ body {
     .card-sound,
     .card-audio,
     .card-video {
+        padding: 10px;
         margin-top: 5px;
         margin-bottom: 1rem;
         font-size: 80%
     }
+    
     .image {
         height: 50vh;
     }
@@ -410,7 +402,7 @@ body {
         display: none;
     }
     .table-container {
-        font-size: 80%;
+        font-size: auto;
         display: inline-table;
         letter-spacing: 0.2px;
     }
