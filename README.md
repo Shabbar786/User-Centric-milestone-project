@@ -3,7 +3,6 @@ The Monkees
 
 **User-Centric Frontend Development Milestone Project**  
 
-
 The is my front-end only website for a 1960’s rock band known as 'The Monkees'. The targeted audience were mainly the fans and for them 
 to be able to use the site to access music either through an archive collection or any latest sounds available. 
 
@@ -15,8 +14,9 @@ as everything will be able to be achieved by a click of a button, such as gettin
 #### Table of contents
 * [Design](#design)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
+* [Testing](#testing)
+* [Deployment](#deployment)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Media](#media)
@@ -24,11 +24,11 @@ as everything will be able to be achieved by a click of a button, such as gettin
 * [Contact](#contact)
 
 #### Design
+
 When coming up with the design of the site, the concept was to make it easy and user friendly with quality interaction between a fan and their favourite band. 
 
 Also for the viewers I wanted simplicity and not overcrowding them with lots of information but at the same time providing them with appealing and relevant content. This also includes young and old viewers who are not
 very computer savvy but will still be able to manoeuvre around the site with ease.
-
 
 #### Technologies
 
@@ -36,14 +36,6 @@ very computer savvy but will still be able to manoeuvre around the site with eas
 -  HTML
 -  CSS
 -  Bootstrap (4.3.1)
-
-#### Setup
-
-
-To be able to view this product you can access through github or live
-[here][Project]. 
-
-[Project]:https://shabbar786.github.io/User-Centric-milestone-project/
 
 ### Features
 
@@ -59,6 +51,7 @@ To-do list:
 - Improvement to be done 2 - Instead of single scroll page add 4-5 pages with more features and animation enabling a more pleasurable UX for the viewer.
 
 ### Testing
+
 The aim of the site through user interaction was accomplished. The website provided simple yet eye catching design and all required information was available to choose from.
 In the Navbar section you had the main headings which, when clicked took you to the section through specific 'id' which was linked to each heading. 
 
@@ -77,6 +70,13 @@ format, the reason for this was the iframes made the mobile view very unappealin
 All code was validated using the websites 'W3C Markup Validation Service' and 'W3C CSS Validation Service', links to the websites can be found under Acknowledgements section. 
 
 Initially some errors were found during validation that were not too serious and were rectified straight away such as my images did not have an 'alt' attribute, which was added after. Also my iframes 'frameborder="0"' in the index.html was obsolete and was not required, so I removed the code.
+
+#### Deployment
+
+To be able to view this product you can access through Github pages or here
+[live][Project]. If accessing through GitHub it is deployed directly from the master branch - https://github.com/Shabbar786/User-Centric-milestone-project
+
+[Project]:https://shabbar786.github.io/User-Centric-milestone-project/
 
 ### Status
 
@@ -124,7 +124,6 @@ Merchandise images were taken from these websites.
 
 
 ### Contact
-
 Created by Mohammed Shabbar, contact me on mohammed.shabbar1982@gmail.com
 
 
