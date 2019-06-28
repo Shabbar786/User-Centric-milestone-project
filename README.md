@@ -71,7 +71,7 @@ All code was validated using the websites 'W3C Markup Validation Service' and 'W
 
 Initially some errors were found during validation that were not too serious and were rectified straight away such as my images did not have an 'alt' attribute, which was added after. Also my iframes 'frameborder="0"' in the index.html was obsolete and was not required, so I removed the code.
 
-#### Deployment
+### Deployment
 
 To be able to view this product you can access through Github pages or here
 [live][Project]. If accessing through GitHub it is deployed directly from the master branch - https://github.com/Shabbar786/User-Centric-milestone-project
