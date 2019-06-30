@@ -3,7 +3,7 @@ The Monkees
 
 **User-Centric Frontend Development Milestone Project**  
 
-The is my front-end only website for a 1960’s rock band known as 'The Monkees'. The targeted audience were mainly the fans and for them 
+The is my frontend-only website for a 1960’s rock band known as 'The Monkees'. The targeted audience were mainly the fans and for them 
 to be able to use the site to access music either through an archive collection or any latest sounds available. 
 
 ![GitHub Logo](images/cover.png)
@@ -80,7 +80,7 @@ If accessing through GitHub you can **git clone** it directly from the master br
 
 ### Status
 
-Project is complete and in goodworking order. All initial tasks set up are completed and acheived. Due to this being a static front-end only project some buttons and links will not be working.
+Project is complete and in goodworking order. All initial tasks set up are completed and acheived. Due to this being a static frontend-only project some buttons and links will not be working.
 
 ### Inspiration
 
