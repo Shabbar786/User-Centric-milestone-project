@@ -122,6 +122,6 @@ Merchandise images were taken from these websites.
 
 
 ### Contact
-Created by Mohammed Shabbar, contact me on mohammed.shabbar1982@gmail.com
+Created by Mohammed Shabbar, contact me on mohammedshabbar1982@gmail.com
 
 
