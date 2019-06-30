@@ -221,7 +221,7 @@ body {
 
 .show-container {
     height: auto;
-    padding: 40px;
+    padding: 0 0 40px 0;
     background-attachment: fixed;
     background: url("../images/image.jpg");
     -webkit-background-size: cover;
@@ -381,7 +381,7 @@ body {
         margin-bottom: 1rem;
         font-size: 80%
     }
-    
+
     .image {
         height: 50vh;
     }
@@ -411,7 +411,7 @@ body {
         margin-bottom: 10rem;
         margin-left: 4rem;
     }
-.blockquote {
+    .blockquote {
         font-size: 100%
     }
 

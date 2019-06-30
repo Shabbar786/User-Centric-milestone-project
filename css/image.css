@@ -1,9 +1,13 @@
+body {
+  background-color: #f46f30;
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 22px;
 }
 
 .column {
@@ -11,6 +15,7 @@
   flex: 25%;
   max-width: 70%;
   padding: 0 10px;
+  margin-top: 0px;
 }
 
 .column img {
@@ -22,11 +27,18 @@
 .btn-light {
   font-weight: bold;
   width: 100px;
+  height: 50px;
   color: #fff;
   background-color: #14171a;
-  border-color: #f46f30;
-  padding: 10px;
-  margin: 40px;
+  border-color: red;
+  padding: 13px;
+  margin: 20px;
+}
+
+@media (max-width: 767px) {
+  .btn-light {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
