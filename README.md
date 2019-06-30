@@ -71,8 +71,10 @@ All code was validated using the websites 'W3C Markup Validation Service' and 'W
 
 ### Deployment
 
-To be able to view this product you can access through Github pages or
-[here][Project]. If accessing through GitHub you can clone it directly from the master branch - https://github.com/Shabbar786/User-Centric-milestone-project
+To be able to view this product you can access through Github pages, which update automatically with each new push to the repository or alternately you can view it
+[here][Project]. 
+
+If accessing through GitHub you can **git clone** it directly from the master branch - https://github.com/Shabbar786/User-Centric-milestone-project in the editor of your choice.
 
 [Project]:https://shabbar786.github.io/User-Centric-milestone-project/
 

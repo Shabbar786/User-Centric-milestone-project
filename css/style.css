@@ -402,7 +402,7 @@ body {
         display: none;
     }
     .table-container {
-        font-size: auto;
+        font-size: 100%;
         display: inline-table;
         letter-spacing: 0.2px;
     }
